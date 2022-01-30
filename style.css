@@ -1,0 +1,107 @@
+/* Global styles
+-----------------------------------------*/
+body {
+    color: #343434;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size:15px;
+    line-height:1.5;
+}
+
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after{
+    box-sizing:inherit;
+}
+
+img {
+    width:300px
+}
+a {
+    color: #d16dff;
+}
+a:hover {
+    text-decoration: none;
+}
+
+h1{
+    font-size:60px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+.content-wrap{
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+/* Profile
+-----------------------------------------*/
+header {
+    background-color: #ccb2c1;
+    color: #f7fff7;
+}
+
+
+/* Projects
+-----------------------------------------*/
+.projects {
+    background-color: #f7fff7;
+}
+.projects a{
+    color: #2F3061 ;
+}
+.projects .btn{
+    color: #f7fff7;
+    background-color: #2F3061;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+}
+.projects .btn:hover{
+    background-color: rgb(47,48,97, 80%);
+}
+.project-item {
+    overflow:hidden;
+    border-bottom: 1px dashed #343434;
+    padding: 25px 0;
+}
+
+.project-item img{
+float: left;
+margin-right:20px;
+}
+
+.project-item h3{
+    margin-top: 0;
+}
+/* Work Experience
+-----------------------------------------*/
+.work-experience {
+    background-color: #ebb2d1;
+}
+
+
+/* Education
+-----------------------------------------*/
+
+
+
+/* Contact Information
+-----------------------------------------*/
+footer {
+    background-color: #343434;
+    color: #f7fff7;
+}
+
